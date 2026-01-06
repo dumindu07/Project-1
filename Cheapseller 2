@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheapSeller | Best Deals Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>CheapSeller</h1>
+        <p>Find the Best Products at the Cheapest Prices</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#products">Best Deals</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Save Money on Top Products</h2>
+        <p>We compare prices and recommend the best deals available online.</p>
+        <a href="#products" class="btn">View Deals</a>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <h2>🔥 Best Cheap Deals</h2>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/300" alt="Product">
+            <h3>Wireless Earbuds</h3>
+            <p>High-quality sound, long battery life, and budget-friendly.</p>
+            <a href="YOUR_AFFILIATE_LINK" target="_blank" class="btn">Buy Now</a>
+        </div>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/300" alt="Product">
+            <h3>Smart Watch</h3>
+            <p>Track fitness, heart rate, and notifications at a low price.</p>
+            <a href="YOUR_AFFILIATE_LINK" target="_blank" class="btn">Buy Now</a>
+        </div>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/300" alt="Product">
+            <h3>Portable Bluetooth Speaker</h3>
+            <p>Loud sound, deep bass, and perfect for travel.</p>
+            <a href="YOUR_AFFILIATE_LINK" target="_blank" class="btn">Buy Now</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <h2>About CheapSeller</h2>
+        <p>
+            CheapSeller helps shoppers find the best products at the lowest prices.
+            We research, compare, and recommend affordable products so you don’t have to.
+        </p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: cheapseller@gmail.com</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 CheapSeller. All Rights Reserved.</p>
+        <p class="disclaimer">
+            Disclaimer: This website contains affiliate links. We may earn a commission at no extra cost to you.
+        </p>
+    </footer>
+
+</body>
+</html>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #ff6b00;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #333;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+nav a:hover {
+    background: #ff6b00;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: white;
+}
+
+.hero h2 {
+    font-size: 32px;
+}
+
+.hero p {
+    margin: 15px 0;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    background: #ff6b00;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #e65c00;
+}
+
+/* Products */
+.products {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.products h2 {
+    margin-bottom: 30px;
+}
+
+.product-card {
+    background: white;
+    width: 300px;
+    padding: 20px;
+    margin: 15px;
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    margin: 15px 0;
+}
+
+/* About & Contact */
+.about, .contact {
+    background: white;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.disclaimer {
+    margin-top: 10px;
+    font-size: 12px;
+}
